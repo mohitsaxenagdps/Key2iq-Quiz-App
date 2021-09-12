@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Key2iq Quiz App</string>
+    <string name="courses">COURSES</string>
+    <string name="community">COMMUNITY</string>
+    <string name="profile">PROFILE</string>
+    <string name="menu">MENU</string>
+    <string name="compete">COMPETE</string>
+    <string name="explore">EXPLORE</string>
+    <string name="feedback">FEEDBACK</string>
+    <string name="what_do_you_want_to_do">What do you want to do ...</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="submit">Submit</string>
+    <string name="logic_puzzles_intermediate_nwarmups">Logic Puzzles - Intermediate\nWarmups</string>
+    <string name="logic_warmups">LOGIC WARMUPS</string>
+    <string name="quiz">quiz</string>
+</resources>

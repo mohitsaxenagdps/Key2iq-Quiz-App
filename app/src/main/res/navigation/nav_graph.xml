@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/communityFragment">
+
+    <fragment
+        android:id="@+id/coursesFragment"
+        android:name="com.key2iqintern.key2iqquizapp.fragment.CoursesFragment"
+        android:label="@string/courses"
+        tools:layout="@layout/fragment_courses" />
+    <fragment
+        android:id="@+id/communityFragment"
+        android:name="com.key2iqintern.key2iqquizapp.fragment.CommunityFragment"
+        android:label="@string/community"
+        tools:layout="@layout/fragment_community" >
+        <action
+            android:id="@+id/action_communityFragment_to_quizFragment"
+            app:destination="@id/quizFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.key2iqintern.key2iqquizapp.fragment.ProfileFragment"
+        android:label="@string/profile"
+        tools:layout="@layout/fragment_profile" />
+    <fragment
+        android:id="@+id/quizFragment"
+        android:name="com.key2iqintern.key2iqquizapp.fragment.QuizFragment"
+        android:label="fragment_quiz"
+        tools:layout="@layout/fragment_quiz" />
+</navigation>
